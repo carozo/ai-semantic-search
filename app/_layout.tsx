@@ -10,6 +10,14 @@ import { useEffect } from "react";
 import "react-native-reanimated";
 import * as eva from "@eva-design/eva";
 import { ApplicationProvider } from "@ui-kitten/components";
+import { ConvexProvider, ConvexReactClient } from "convex/react";
+
+export const convex = new ConvexReactClient(
+  process.env.EXPO_PUBLIC_CONVEX_URL!,
+  {
+    unsavedChangesWarning: false,
+  }
+);
 
 import { useColorScheme } from "@/hooks/useColorScheme";
 
@@ -38,12 +46,16 @@ export default function RootLayout() {
 
   return (
     <ApplicationProvider {...eva} theme={eva.light}>
-      <ThemeProvider value={colorScheme === "dark" ? DarkTheme : DefaultTheme}>
-        <Stack>
-          <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-          <Stack.Screen name="+not-found" />
-        </Stack>
-      </ThemeProvider>
+      <ConvexProvider client={convex}>
+        <ThemeProvider
+          value={colorScheme === "dark" ? DarkTheme : DefaultTheme}
+        >
+          <Stack>
+            <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+            <Stack.Screen name="+not-found" />
+          </Stack>
+        </ThemeProvider>
+      </ConvexProvider>
     </ApplicationProvider>
   );
 }

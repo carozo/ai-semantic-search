@@ -1,13 +1,15 @@
 import { Tabs } from "expo-router";
 import React from "react";
-
+import { Text } from "react-native";
 import { TabBarIcon } from "@/components/navigation/TabBarIcon";
 import { Colors } from "@/constants/Colors";
 import { useColorScheme } from "@/hooks/useColorScheme";
+import { useQuery } from "convex/react";
+import { api } from "@/convex/_generated/api";
 
 export default function TabLayout() {
   const colorScheme = useColorScheme();
-
+  const tasks = useQuery(api.tasks.get);
   return (
     <Tabs
       screenOptions={{
@@ -15,6 +17,7 @@ export default function TabLayout() {
         headerShown: false,
       }}
     >
+      {tasks?.map(({ _id, text }) => <Text key={_id}>{text}</Text>)}
       <Tabs.Screen
         name="index"
         options={{
