@@ -9,13 +9,13 @@ export const restaurants: Restaurant[] = [
     id: 1,
     name: "Casa Zoraya",
     description:
-      "Since Zoraya Zambrano and her children, Gary and Gloria Marmanillo, opened Casa Zoraya back in 2018, this Peruvian spot has been Piedmont's under-the-radar gem: Ceviches land at the table like a work of art, fried calamari adding crunch to a bed of fresh seasonal seafood tossed with a summery leche de tigre. Arroz Chaufa, a Peruvian fried rice dish, gets an upgrade with a passionfruit rocoto sauce, which adds dose of acidity, sweetness, and peppery zip. And the pisco sours feel like they're shipped straight from Lima, best sipped on Casa Zoraya's back patio on nice days.",
+      "Since Zoraya Zambrano and her children, Gary and Gloria Marmanillo, opened Casa Zoraya back in 2018, this Peruvian spot has been Piedmont's under-the-radar gem: Ceviches land at the table like a work of art, fried calamari adding crunch to a bed of fresh seasonal seafood tossed with  a summery leche de tigre. Arroz Chaufa, a Peruvian fried rice dish, gets an upgrade with a passionfruit rocoto sauce, which adds dose of acidity, sweetness, and peppery zip. And the pisco sours feel like they're shipped straight from Lima, best sipped on Casa Zoraya's back patio on nice days.",
   },
   {
     id: 2,
     name: "Hat Yai",
     description:
-      "Akkapong Earl Ninsom did it again: After treating Portland to deftly executed Thai cooking at Langbaan and Paadee, the chef —alongside co-founder and co-owner Alan Akwai — created a casual southern Thai compatriot on Northeast Killingsworth with hardcore devotees. Hat Yai's shallot-fried chicken, salty and crunchy, pairs exceptionally well with Malayu-style curry and crispy roti, all available in the popular combo No. 1. And yet, diners will be rewarded for straying from the top billing: The restaurant's searingly spicy kua gling ground pork is abundant with aromatics and alliums, and the dtom som shrimp combines seafood with meaty oyster mushrooms in a broth pleasingly sour with tamarind and ginger.",
+      "Akkapong Earl Ninsom did it again: After treating Portland to deftly executed Thai cooking at Langbaan and Paadee, the chef —alongside co-founder and co-owner Alan Akwai — created a casual southern Thai compatriot on Northeast Killingsworth with hardcore devotees. Hat Yai's shallot-fried chicken, salty and crunchy, pairs exceptionally well with Malayu-style curry and crispy roti, all available inthe popular combo No. 1. And yet, diners will be rewarded for straying from the top billing: The restaurant's searingly spicy kua gling ground pork is abundant with aromatics and alliums, and the dtom som shrimp combines seafood with meaty oyster mushrooms in a broth pleasingly sour with tamarind and ginger.",
   },
   {
     id: 3,
@@ -52,5 +52,263 @@ export const restaurants: Restaurant[] = [
     name: "Lovely's Fifty Fifty",
     description:
       "In a North Mississippi pizza cafe that feels casual but intimate, pizzaiola Sarah Minnick embraces paradoxes: She took something brimming with childhood charm — pizza and ice cream — and gave it a high-end twist. Ever-changing pizzas are a garden of edible flowers and mushrooms, atop an airy-but-sturdy pizza dough made with Oregon whole grains; they're joined by salads and soups made with peak-season produce. While the menu changes on an almost weekly basis, Minnick's culinary creativity and attention to detail remains constant. If someone is defining Portland's distinct pizza style, it's Minnick.",
+  },
+  {
+    id: 9,
+    name: "The Rustic Spoon",
+    description:
+      "A cozy spot offering farm-to-table American cuisine with a modern twist.",
+  },
+  {
+    id: 10,
+    name: "Saffron & Sage",
+    description:
+      "Upscale Indian bistro known for its flavorful curries and artisanal cocktails.",
+  },
+  {
+    id: 11,
+    name: "Casa di Pasta",
+    description:
+      "Traditional Italian trattoria famous for handmade pasta and wood-fired pizzas.",
+  },
+  {
+    id: 12,
+    name: "Seaside Catch",
+    description:
+      "Fresh seafood and stunning ocean views make this a must-visit coastal eatery.",
+  },
+  {
+    id: 13,
+    name: "Tokyo Street",
+    description:
+      "Trendy Japanese fusion restaurant with sushi, ramen, and izakaya small plates.",
+  },
+  {
+    id: 14,
+    name: "Bistro Provence",
+    description:
+      "Charming French bistro serving authentic dishes from southern France.",
+  },
+  {
+    id: 15,
+    name: "El Fuego",
+    description:
+      "Vibrant Mexican grill known for its tacos, tequila flights, and live mariachi music.",
+  },
+  {
+    id: 16,
+    name: "Green Fork",
+    description:
+      "Plant-based eatery specializing in organic vegan bowls and smoothies.",
+  },
+  {
+    id: 17,
+    name: "The Butcher’s Block",
+    description:
+      "High-end steakhouse offering dry-aged beef and a curated whiskey selection.",
+  },
+  {
+    id: 18,
+    name: "Pho Haven",
+    description:
+      "Casual Vietnamese joint dishing out hearty pho, banh mi, and bubble tea.",
+  },
+  {
+    id: 19,
+    name: "Bella Luna",
+    description:
+      "Romantic Mediterranean restaurant with candlelit dining and rooftop seating.",
+  },
+  {
+    id: 20,
+    name: "Urban Dumpling Co.",
+    description:
+      "Modern Chinese street food served fast with a focus on handmade dumplings.",
+  },
+  {
+    id: 20,
+    name: "Urban Dumpling Co.",
+    description:
+      "Modern Chinese street food served fast with a focus on handmade dumplings.",
+  },
+  {
+    id: 21,
+    name: "The Curry Pot",
+    description:
+      "Homestyle South Indian cuisine served in a warm, rustic setting.",
+  },
+  {
+    id: 22,
+    name: "Kebab Kingdom",
+    description:
+      "Middle Eastern grill house specializing in shawarma and charcoal kebabs.",
+  },
+  {
+    id: 23,
+    name: "Burger & Barrel",
+    description:
+      "Craft burger joint with gourmet toppings and a selection of local brews.",
+  },
+  {
+    id: 24,
+    name: "La Taquería del Sol",
+    description:
+      "Street-style tacos, spicy salsas, and a vibrant Mexican atmosphere.",
+  },
+  {
+    id: 25,
+    name: "Noodle & Co.",
+    description:
+      "Pan-Asian noodle bar featuring ramen, udon, and wok-fried favorites.",
+  },
+  {
+    id: 26,
+    name: "The Garden Table",
+    description:
+      "Health-focused café offering salads, juices, and sustainable bites.",
+  },
+  {
+    id: 27,
+    name: "Smoke & Oak",
+    description:
+      "Barbecue smokehouse with slow-cooked meats and signature sauces.",
+  },
+  {
+    id: 28,
+    name: "Tandoori Nights",
+    description:
+      "Classic North Indian dishes with rich flavors and traditional tandoor cooking.",
+  },
+  {
+    id: 29,
+    name: "The Sushi Loft",
+    description:
+      "Chic rooftop sushi lounge serving premium rolls and sake cocktails.",
+  },
+  {
+    id: 30,
+    name: "Crepe & Co.",
+    description:
+      "French-style creperie offering sweet and savory options all day long.",
+  },
+  {
+    id: 31,
+    name: "Pita Planet",
+    description:
+      "Casual Mediterranean café with wraps, hummus, and fresh-baked pita.",
+  },
+  {
+    id: 32,
+    name: "The Vegan Joint",
+    description:
+      "Plant-powered comfort food with global flavors and creative twists.",
+  },
+  {
+    id: 33,
+    name: "Steamy Buns",
+    description: "Trendy spot for bao buns, dim sum, and Asian street snacks.",
+  },
+  {
+    id: 34,
+    name: "The Crab Shack",
+    description:
+      "Laid-back seafood spot famous for its crab boils and beachy vibes.",
+  },
+  {
+    id: 35,
+    name: "Al Dente",
+    description:
+      "Upscale Italian dining experience with an extensive wine list and fresh pasta.",
+  },
+  {
+    id: 36,
+    name: "Chopsticks & Wok",
+    description:
+      "Quick-serve Asian eatery known for stir-fries and takeout classics.",
+  },
+  {
+    id: 37,
+    name: "Tapas & Vino",
+    description:
+      "Spanish tapas bar serving small plates and a wide variety of wines.",
+  },
+  {
+    id: 38,
+    name: "The Brunch House",
+    description:
+      "All-day brunch café with pancakes, eggs benedict, and bottomless mimosas. Great for weekend gatherings.",
+  },
+  {
+    id: 39,
+    name: "Rollin’ Sushi",
+    description:
+      "Funky sushi food truck turned full restaurant, known for bold flavors.",
+  },
+
+  {
+    id: 40,
+    name: "The Ember Room",
+    description:
+      "Nestled in the heart of downtown, The Ember Room offers a moody, candlelit atmosphere with an open-fire kitchen that specializes in flame-kissed meats, seasonal vegetables, and elevated comfort food. Perfect for date nights and late-night bites.",
+  },
+  {
+    id: 41,
+    name: "Harvest & Hearth",
+    description:
+      "A farm-to-fork concept rooted in sustainability, Harvest & Hearth works with local farmers to bring you an ever-changing menu inspired by the seasons. Expect colorful produce, rustic breads, and handcrafted mains served in a warm, earthy setting.",
+  },
+  {
+    id: 42,
+    name: "Lotus & Lantern",
+    description:
+      "An upscale Pan-Asian restaurant blending traditional flavors with modern plating, Lotus & Lantern offers dishes like lemongrass-crusted salmon and tamarind duck confit. The space is zen-inspired, complete with bamboo walls and soft ambient lighting.",
+  },
+  {
+    id: 43,
+    name: "Brass Bell Tavern",
+    description:
+      "This old-world pub delivers hearty plates and cozy vibes, with leather booths, exposed brick, and an impressive selection of whiskeys and craft beers. From shepherd’s pie to truffle mac and cheese, every dish is made to warm your soul.",
+  },
+  {
+    id: 44,
+    name: "Sora Sky Kitchen",
+    description:
+      "Perched atop a high-rise, Sora offers breathtaking city views alongside an avant-garde Japanese dining experience. Expect omakase tasting menus, rare imported sakes, and dishes that are as much art as they are food.",
+  },
+  {
+    id: 45,
+    name: "Nomad’s Table",
+    description:
+      "A globally inspired dining adventure, Nomad’s Table pulls recipes from every corner of the world. Whether it's Moroccan tagine, Korean bulgogi, or Peruvian ceviche, each dish is authentically crafted and beautifully presented in a boho-chic environment.",
+  },
+  {
+    id: 46,
+    name: "Velvet Fig",
+    description:
+      "A romantic European-inspired bistro known for its candlelit tables, wine pairings, and slow-cooked dishes like duck à l’orange and porcini risotto. Velvet Fig is where timeless flavors meet impeccable hospitality.",
+  },
+  {
+    id: 47,
+    name: "Backyard Smokehouse",
+    description:
+      "What started as a backyard pitmaster’s weekend hobby has grown into a local legend. Backyard Smokehouse serves up low-and-slow barbecue with bold, smoky flavor—think brisket, burnt ends, and jalapeño cornbread with honey butter.",
+  },
+  {
+    id: 48,
+    name: "Bloom Plant Kitchen",
+    description:
+      "A vibrant, colorful space that celebrates all things plant-based, Bloom offers a creative, globally inspired vegan menu. From beet poke bowls to jackfruit tacos and cashew cheesecakes, each plate is as nourishing as it is Instagram-worthy.",
+  },
+  {
+    id: 49,
+    name: "Marée Coastal Cuisine",
+    description:
+      "Marée delivers a luxurious seafood experience right on the waterfront. Featuring sustainably caught fish, an oyster bar with selections from both coasts, and a curated wine list, this is fine dining with a fresh ocean breeze.",
+  },
+  {
+    id: 50,
+    name: "Crumbs & Whiskers Café",
+    description:
+      "A cozy, whimsical café where the pastries are homemade, the lattes are frothy, and rescue cats roam freely for cuddles. Crumbs & Whiskers combines a café experience with a cat adoption center—yes, you might leave with a croissant *and* a kitten.",
   },
 ];

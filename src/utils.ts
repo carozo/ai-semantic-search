@@ -1,6 +1,6 @@
 import { Tensor } from "onnxruntime-react-native";
 
-export function globalAverage(data: number[], dims: number[]) {
+export function globalAverage(data: number[], dims: readonly number[]) {
   const vectorSize = dims[2];
   const average = new Array(vectorSize).fill(0);
   for (const index in data) {
